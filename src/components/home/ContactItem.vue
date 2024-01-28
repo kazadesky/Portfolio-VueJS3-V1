@@ -1,5 +1,5 @@
 <template>
-    <form action="" method="POST" class="flex flex-col lg:w-[650px] max-sm:w-full items-center">
+    <form class="flex flex-col lg:w-[650px] max-sm:w-full items-center">
         <div :class="classComponent.class_1">
             <label :for="nama.for" :class="classComponent.class_2">{{ nama.plc }}</label>
             <input :type="nama.type" :name="nama.for" :id="nama.for"
