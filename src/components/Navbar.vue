@@ -2,7 +2,7 @@
     <header>
         <nav class="flex w-full h-[50px] items-center lg:px-10 max-sm:px-3 fixed top-0 z-10 shadow bg-slate-100">
             <router-link to="/" class="flex lg:gap-x-2 max-sm:gap-x-1 items-center">
-                <img :src="navBrand.src" :alt="navBrand.alt" class="max-sm:w-[30px]">
+                <img src="/public/favicon.ico" alt="Logo Vue" class="max-sm:w-[30px]">
                 <span class="lg:text-xl max-sm:text-lg font-bold uppercase">Portfolio</span>
             </router-link>
             <ul class="lg:hidden max-sm:ml-auto">
@@ -35,7 +35,6 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            navBrand: { src: '../../public/favicon.ico', alt: 'Logo Vue' },
             navItems: [
                 { title: 'Home', url: '/' },
                 { title: 'About', url: '/about' },
