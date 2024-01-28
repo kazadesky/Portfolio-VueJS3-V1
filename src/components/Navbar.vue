@@ -35,7 +35,7 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            navBrand: { src: '/public/favicon.ico', alt: 'Logo Vue' },
+            navBrand: { src: '../../public/favicon.ico', alt: 'Logo Vue' },
             navItems: [
                 { title: 'Home', url: '/' },
                 { title: 'About', url: '/about' },
