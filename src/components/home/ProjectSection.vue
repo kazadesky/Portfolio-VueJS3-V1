@@ -5,7 +5,7 @@
         <div class="grid lg:grid-cols-3 max-sm:grid-cols-1 lg:gap-5 max-sm:gap-y-3">
             <div v-for="item in imgItems"
                 class="col-span-1 rounded-md shadow-md overflow-hidden transition duration-300 grayscale hover:grayscale-0">
-                <img :src="item.src" :alt="item.alt">
+                <img src="/src/assets/img/example-project.jpg" :alt="item.alt">
             </div>
         </div>
     </section>
