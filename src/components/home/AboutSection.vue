@@ -3,8 +3,8 @@
         class="lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-[100vh] max-sm:min-h-[100vh] w-full lg:px-10 max-sm:px-3">
         <h1 class="text-center lg:text-3xl font-bold mb-5 uppercase">About</h1>
         <div class="grid lg:grid-cols-3 max-sm:grid-cols-1 lg:gap-x-10">
-            <div class="lg:col-span-1 max-sm:hidden">
-                <img :src="img.src" :alt="img.alt"
+            <div class="lg:col-span-1 max-sm:hidden shadow-md">
+                <img src="/src/assets/img/profil.jpg" alt="Profil Img"
                     class="rounded-md drop-shadow-md grayscale transition duration-300 hover:grayscale-0">
             </div>
             <div
@@ -36,10 +36,5 @@
 <script>
 export default {
     name: 'About-Section',
-    data() {
-        return {
-            img: { src: "/src/assets/img/profil.jpg", alt: "Second Profil Img" },
-        }
-    },
 }
 </script>

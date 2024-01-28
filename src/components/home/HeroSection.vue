@@ -20,7 +20,7 @@
                 Started</button>
         </div>
         <div class="lg:col-span-1 max-sm:hidden">
-            <img :src="profil.src" :alt="profil.alt"
+            <img src="/src/assets/img/profil.jpg" alt="Profil Img"
                 class="rounded-full drop-shadow-md grayscale transition duration-300 hover:grayscale-0">
         </div>
     </section>
@@ -29,10 +29,5 @@
 <script>
 export default {
     name: 'Hero-Section',
-    data() {
-        return {
-            profil: { src: "/src/assets/img/profil.jpg", alt: "Profil Img" },
-        }
-    },
 }
 </script>

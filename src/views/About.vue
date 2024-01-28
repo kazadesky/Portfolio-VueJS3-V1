@@ -3,8 +3,8 @@
         <h1 class="lg:text-2xl lg:mt-[4.5rem] max-sm:mt-[4rem] lg:mb-5 max-sm:mb-4 uppercase font-bold">About <span
                 class="text-greenVue">Me :</span></h1>
         <div class="lg:grid lg:grid-cols-3 max-sm:flex max-sm:flex-col max-sm:gap-y-4 lg:gap-x-10">
-            <div class="lg:col-span-1">
-                <img :src="img.src" :alt="img.alt"
+            <div class="lg:col-span-1 shadow-md">
+                <img src="/src/assets/img/profil.jpg" alt="Profil Img"
                     class="rounded-md drop-shadow-md grayscale transition duration-300 hover:grayscale-0">
             </div>
             <div
@@ -41,10 +41,5 @@
 <script>
 export default {
     name: "About",
-    data() {
-        return {
-            img: { src: "/src/assets/img/profil.jpg", alt: "About Profil" },
-        }
-    },
 }
 </script>
