@@ -16,7 +16,7 @@
                 cols="25" rows="6" :placeholder="comment.plc" required></textarea>
         </div>
         <div v-bind:class="classComponent.class_1">
-            <button
+            <button @click.prevent
                 class="w-full h-12 bg-greenVue outline-none transition duration-300 hover:bg-hoverGreenVue focus:bg-hoverGreenVue text-white font-medium uppercase rounded-md max-sm:h-10 max-sm:text-sm">Kirim
                 Comment</button>
         </div>
